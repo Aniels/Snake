@@ -1,4 +1,5 @@
-import game
+from snake.game import Game
 
-if __name__ == "main":
-    game()
+
+if __name__ == "__main__":
+    Game.start()
