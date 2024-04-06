@@ -9,11 +9,7 @@ class LinkedList:
         self.tail = None
 
     def append(self, data):
-        # 建立 class Node 的instance(實體)
         new_node = Node(data)
-        
-        # 如果head == None 代表為第一個Node
-
         if self.head is None:
             self.head = new_node
             self.tail = new_node
