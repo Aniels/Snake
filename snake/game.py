@@ -28,7 +28,6 @@ class Game:
         pygame.display.flip()
 
     # Main game loop
-
     def game_loop(self):
         running = True
         while running:

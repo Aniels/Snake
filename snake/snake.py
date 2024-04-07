@@ -1,9 +1,10 @@
+import pygame
 from link_list import LinkedList
 
 # set up the snake
 SNAKE_INIT_LOCATION = (5, 5)
 
-class Snake(LinkedList):
+class Snake(LinkedList, pygame.sprite.Sprite):
     def __init__():
         super().__init__()
 
